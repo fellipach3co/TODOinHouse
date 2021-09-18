@@ -7,11 +7,11 @@ Esse projeto tem como objetivo geral desenvolver uma aplicação do tipo To-Do L
 👉 Uma aplicação que possam ser registradas tarefas à serem realizadas. Essa aplicação deve receber tarefas em forma de To-Do List. 
 
 #### Conteúdo específico da aplicação
-👉 Um documento HTML com um campo para registrar as atividades à serem realizadas.
-👉 Nesse documento, cada tarefa registrar é apresentada em um bloco com campo para registrar quando a tarefa foi concluída e outro botão para excluir a atividade.
-👉 O projeto possui um documento CSS que estiliza os campos e organiza o layout da aplicação, estiliza botões de registro, status e exclusão da tarefa cadastrada.
-👉 O documento JavaScript incluso é responsável pela operação da aplicação, onde insere novos blocos conforme são adicionadas atividades.
-👉 As tarefas inseridas no documento são também registradas no local storage. 
+- 👉 Um documento HTML com um campo para registrar as atividades à serem realizadas.
+- 👉 Nesse documento, cada tarefa registrar é apresentada em um bloco com campo para registrar quando a tarefa foi concluída e outro botão para excluir a atividade.
+- 👉 O projeto possui um documento CSS que estiliza os campos e organiza o layout da aplicação, estiliza botões de registro, status e exclusão da tarefa cadastrada.
+- 👉 O documento JavaScript incluso é responsável pela operação da aplicação, onde insere novos blocos conforme são adicionadas atividades.
+- 👉 As tarefas inseridas no documento são também registradas no local storage. 
 
 ## Ferramentas usadas na aplicação
 
