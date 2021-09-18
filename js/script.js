@@ -50,10 +50,11 @@ todoForm.addEventListener('submit', (event) =>{
       li.setAttribute('data-key', item.id)
       
       if(item.completed === true){
-      	li.classList.add('checked')
+        li.style.color = 'rgba(131, 128, 165, 0.25)'
+        li.style.textDecoration = 'line-through'
       }
       
-      li.innerHTML = `<input type='checkbox' class='checkbox' ${checked}> <p>${item.name}</p><button class='delete-button'>X</button>`
+      li.innerHTML = `<input type='checkbox' class='checkbox' ${checked}> <p>${item.name}</p><button class='delete-button delete-button-complete'>X</button>`
       todoItems.append(li)
       
     })
