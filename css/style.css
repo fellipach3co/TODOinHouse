@@ -25,7 +25,6 @@ h1 {
 .container {
   width: 665px;
   margin: 0 auto;
-  height: 1000px;
 }
 
 .box-header {
@@ -74,22 +73,35 @@ h1 {
   background: linear-gradient(-90deg, #3f3773 0%, #b81b69 47.92%, #c16803 100%);
 }
 .lista-tarefas {
-  background-color: white;
   list-style-type: none;
 }
 .lista-tarefas li {
+  background-color: white;
   font-size: 0.87rem;
   font-weight: bold;
   text-decoration: none;
   box-shadow: 0px 0px 27.9246px rgba(212, 212, 225, 0.4);
+  display: flex;
+  margin-bottom: 25px;
 }
+
+.lista-tarefas p{
+  width: 512px;
+  display: flex;
+  align-self: center;
+  margin-top: 5px;
+  justify-content: flex-start;
+}
+
+
+
 .lista-tarefas input {
   all: unset;
   background: rgba(254, 133, 133, 1);
   width: 20px;
   height: 20px;
-  display: inline-block;
-  margin: 27px 0px 18px 20px;
+  display: flex;
+  margin: 20px;
 }
 
 .lista-tarefas input:checked {
@@ -97,5 +109,12 @@ h1 {
 }
 
 .delete-button {
-  display: none;
+  border: none;
+  content: url(../img/icon-task-delete.svg);
+  background: none;
+  display: flex;
+  align-self: center;
+  padding: 20px;
+  margin-left: 30px;
 }
+

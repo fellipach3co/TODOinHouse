@@ -53,7 +53,7 @@ todoForm.addEventListener('submit', (event) =>{
       	li.classList.add('checked')
       }
       
-      li.innerHTML = `<input type='checkbox' class='checkbox' ${checked}> ${item.name}<button class='delete-button'>X</button>`
+      li.innerHTML = `<input type='checkbox' class='checkbox' ${checked}> <p>${item.name}</p><button class='delete-button'>X</button>`
       todoItems.append(li)
       
     })
