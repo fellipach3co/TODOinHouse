@@ -5,29 +5,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TO-DOinHouse</title>
+  <title>TO-DOinHouse: Lista de tarefas criada por Fellipe Pacheco Melo</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16"/>
 </head>
 <body>
 
+  <!-- container da aplicação-->
   <div class="container">
-  <header>
+  
+    <!-- cabeçalho da aplicação -->
+    <header>
     <div class="box-header">
         <img src="img/todo-in-house-logo.svg" alt="Logo TO-DO in House">
         <h1>Lista de tarefas desenvolvida por Fellipe Pacheco Melo</h1>
     </div>
   </header>
 
+  <!-- conteúdo principal da aplicação: formulário de registro e lista de tarefas -->
   <main>
-    
     <form id='todo-form'>
       <input type='text' id='nova-atividade' placeholder='Anotar tarefa' maxlength="75" autocomplete="off">
       <button type='submit'>Registrar</button>
     </form>
-    
-    <ul class='lista-tarefas'></ul>
-    
+
+    <ul class='lista-tarefas'></ul> 
   </main>
   </div>
 <script src="js/script.js"></script>

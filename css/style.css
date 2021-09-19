@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap");
 html{
+  /* esse overflow foi necessário
+  ser incluso para resolver o bug do scroll da tela*/
   overflow: scroll;
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
